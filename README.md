@@ -2,6 +2,8 @@
 
 **ScaleWatch** is a web application designed for aquaculture operations to manage daily routines and collect production data in a structured and efficient way. It enables teams to track operational tasks and record biological and technical parameters directly into structured CSV files for easy access and analysis.
 
+[Enjoy demo here](https://scalewatch.plain-solutions.net/)
+
 ## 🚀 Features
 
 - Daily routine execution for fish farming operations  
