@@ -1,0 +1,68 @@
+mortalities:
+  name: Mortalities
+  type: number
+  placeholder: –
+  color: '#FF4D4D'
+
+oxigen:
+  name: Oxigen
+  unit: '%'
+  default: 100
+  type: number
+  step: 5
+  color: '#3399FF'
+
+appetite:
+  name: Appetite
+  type: number
+  default: 4
+  max: 4
+  color: '#CC66FF'
+
+leftover:
+  name: Food Left
+  type: number
+  max: 100
+  step: 25
+  unit: '%'
+  color: '#CC66FF'
+
+feed_spill:
+  name: Feed Spill
+  type: number
+  max: 4
+  color: '#CC6600'
+
+food:
+  name: Food given
+  type: number
+  unit: kg
+  color: '#CC6600'
+
+tails:
+  name: Tails
+  type: number
+  default: 1
+  max: 4
+  color: '#CCFF00'
+
+bacteria:
+  name: Bacteria
+  type: number
+  default: 1
+  max: 4
+  color: '#CCFF00'
+
+condition:
+  name: Condition
+  type: number
+  default: 1
+  max: 4
+  color: '#CCFF00'
+
+odd_even:
+  name: Odd/Even
+  type: number
+  default: 1
+  max: 4
+  color: '#CCFF00'

@@ -1,0 +1,29 @@
+name,interval,scheduled,scopes,parameters,status,user,modified,checklist
+Open Farm (clean floaters),thursday,07:00,,,,,,"Turn on light,Clean & lift floaters,Turn off feeders"
+Open Farm,daily,07:00,,,,,,"Turn on light,Lift floaters,Turn off feeders"
+Fingerling: Check,daily,,f,"mortalities,oxigen",,,,"Turn on light,Collect Mortals,Collect O2,Clean Overflow"
+Fingerling: Clean F1 - F2,monday,,,,,,,"Clean tank walls,Clean overflow"
+Fingerling: Clean F3 - F4,tuesday,,,,,,,"Clean tank walls,Clean overflow"
+Fingerling: Clean F5 - F6,wednesday,,,,,,,"Clean tank walls,Clean overflow"
+Fingerling: Clean F7 - F8,thursday,,,,,,,"Clean tank walls,Clean overflow"
+Fingerling: Clean F9 - F10,friday,,,,,,,"Clean tank walls,Clean overflow"
+Fingerling: Prepare Food,daily,,,,,,,"Turn off feeders,Prepare food,Turn off light"
+Fingerling: Appetite,daily,11:00,f,appetite,,,,
+Ovulation: Check,daily,,o,"mortalities,oxigen",,,,"Turn on light,Collect Mortals,Collect O2"
+Ovulation: Clean O1 - O2,monday,,,,,,,"Clean tank walls,Clean overflow"
+Ovulation: Clean O3 - O5,tuesday,,,,,,,"Clean tank walls,Clean overflow"
+Ovulation: Clean O6 - O8,wednesday,,,,,,,"Clean tank walls,Clean overflow"
+Ovulation: Clean O9 - O12,thursday,,,,,,,"Clean tank walls,Clean overflow"
+Ovulation: Clean O13 - O14,friday,,,,,,,"Clean tank walls,Clean overflow"
+Ovulation: Prepare Food,daily,,o,leftover,,,,"Check food left,tie and clean belt,feeding"
+Ovulation: Appetite,daily,11:00,o,appetite,,,,
+PGO: Check,daily,,n,"mortalities,oxigen",,,,"Collect Mortals,Collect O2"
+PGO: Purge Tank,tuesday,,n,,,,,Lift drain for 10 seconds
+PGO: Clean N1 - N2,monday,,,,,,,"Clean tank walls,Clean overflow"
+PGO: Clean N3 - N4,tuesday,,,,,,,"Clean tank walls,Clean overflow"
+PGO: Clean N5 - N6,wednesday,,,,,,,"Clean tank walls,Clean overflow"
+PGO: Clean N7 - N8,thursday,,,,,,,"Clean tank walls,Clean overflow"
+PGO: Clean N9 - N10,friday,,,,,,,"Clean tank walls,Clean overflow"
+Health: P1 - P2 etc.,monday,,"f,o,n,p1,p2","tails,bacteria,condition,odd_even",,,,
+Health: P3 - P5,tuesday,,"p3,p4,p5","tails,bacteria,condition,odd_even",,,,
+Collect Mortals,daily,,"p1,p2,p3,p4,p5",mortalities,,,,

@@ -1,0 +1,17 @@
+RewriteEngine On
+RewriteBase /
+
+# Skip rewriting for /api and /data routes
+RewriteCond %{REQUEST_URI} ^/(api|data) [NC]
+RewriteRule ^ - [L]
+
+# Prevent rewrite loop: do not rewrite anything already under /dist
+RewriteCond %{REQUEST_URI} ^/dist [NC]
+RewriteRule ^ - [L]
+
+# If the requested file exists in /dist, rewrite the request internally
+RewriteCond %{DOCUMENT_ROOT}/dist%{REQUEST_URI} -f
+RewriteRule ^(.*)$ /dist/$1 [L]
+
+# For all other requests, serve /dist/index.html (SPA fallback)
+RewriteRule ^ /dist/index.html [L]

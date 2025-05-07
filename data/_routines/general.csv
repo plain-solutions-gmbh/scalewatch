@@ -1,0 +1,2 @@
+name,interval,scheduled,scopes,parameters,status,user,modified,checklist
+Closing Farm,daily,16:30,"n,p1,p2,p3,p4,p5",appetite,,,,"Turn on feeder,Check appetite,Turn off light"

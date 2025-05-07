@@ -1,0 +1,15 @@
+name,interval,scheduled,scopes,parameters,status,user,modified,checklist,routine
+"Closing Farm",daily,16:30,"n,p1,p2,p3,p4,p5",appetite,,,,"Turn on feeder,Check appetite,Turn off light",General
+"Open Farm",daily,07:00,,,,,,"Turn on light,Lift floaters,Turn off feeders",Production
+"Fingerling: Check",daily,,f,"mortalities,oxigen",done,Person1,"2025-05-07 18:49:50","Turn on light,Collect Mortals,Collect O2,Clean Overflow",Production
+"Fingerling: Clean F5 - F6",wednesday,,,,,,,"Clean tank walls,Clean overflow",Production
+"Fingerling: Prepare Food",daily,,,,,,,"Turn off feeders,Prepare food,Turn off light",Production
+"Fingerling: Appetite",daily,11:00,f,appetite,,,,,Production
+"Ovulation: Check",daily,,o,"mortalities,oxigen",,,,"Turn on light,Collect Mortals,Collect O2",Production
+"Ovulation: Clean O6 - O8",wednesday,,,,,,,"Clean tank walls,Clean overflow",Production
+"Ovulation: Prepare Food",daily,,o,leftover,,,,"Check food left,tie and clean belt,feeding",Production
+"Ovulation: Appetite",daily,11:00,o,appetite,,,,,Production
+"PGO: Check",daily,,n,"mortalities,oxigen",,,,"Collect Mortals,Collect O2",Production
+"PGO: Clean N5 - N6",wednesday,,,,,,,"Clean tank walls,Clean overflow",Production
+"Collect Mortals",daily,,"p1,p2,p3,p4,p5",mortalities,,,,,Production
+"Open Farm",daily,07:00,"p5,p4,p3,p1,p2","leftover,feed_spill",,,,"Check feed spill,Check leftover in the feeders",Watch

@@ -1,0 +1,2 @@
+name,interval,scheduled,scopes,parameters,status,user,modified,checklist
+Open Farm,daily,07:00,"p5,p4,p3,p1,p2","leftover,feed_spill",,,,"Check feed spill,Check leftover in the feeders"

@@ -1,0 +1,311 @@
+f:
+  name: Fingerling
+  rows:
+    - cols:
+        - name: Fingerling 1
+          tank: f1
+          span: 12
+    - cols:
+        - name: Fingerling 2
+          tank: f2
+          span: 12
+
+    - cols:
+        - name: Fingerling 3
+          tank: f3
+          span: 12
+
+    - cols:
+        - name: Fingerling 4
+          tank: f4
+          span: 12
+
+    - cols:
+        - name: Fingerling 5
+          tank: f5
+          span: 12
+
+    - cols:
+        - name: Fingerling 6
+          tank: f6
+          span: 12
+
+    - cols:
+        - name: Fingerling 7
+          tank: f7
+          span: 12
+
+    - cols:
+        - name: Fingerling 8
+          tank: f8
+          span: 12
+
+    - cols:
+        - name: Fingerling 9
+          tank: f9
+          span: 12
+
+    - cols:
+        - name: Fingerling 10
+          tank: f10
+          span: 12
+
+n:
+  name: PGO
+  rows:
+    - cols:
+        - name: PGO 11
+          tank: o7
+          span: 12
+    - cols:
+        - name: PGO 10
+          tank: o10
+          span: 12
+        - name: PGO 1
+          tank: o1
+          span: 12
+    - cols:
+        - name: PGO 9
+          tank: o9
+          span: 12
+        - name: PGO 2
+          tank: o2
+          span: 12
+    - cols:
+        - name: PGO 8
+          tank: o8
+          span: 12
+        - name: PGO 3
+          tank: o3
+          span: 12
+    - cols:
+        - name: PGO 7
+          tank: o7
+          span: 12
+        - name: PGO 4
+          tank: o4
+          span: 12
+    - cols:
+        - name: PGO 6
+          tank: o6
+          span: 12
+        - name: PGO 5
+          tank: o5
+          span: 12
+o:
+  name: Ovulation
+  gutter: 15
+  rows:
+    - cols:
+        - name: Ovulation 7
+          tank: o7
+          span: 12
+        - name: Ovulation 8
+          tank: o8
+          span: 12
+    - cols:
+        - name: Ovulation 6
+          tank: o6
+          span: 12
+        - name: Ovulation 9
+          tank: o9
+          span: 12
+    - cols:
+        - name: Ovulation 5
+          tank: o5
+          span: 12
+        - name: Ovulation 10
+          tank: o10
+          span: 12
+    - cols:
+        - name: Ovulation 4
+          tank: o4
+          span: 12
+        - name: Ovulation 11
+          tank: o11
+          span: 12
+    - cols:
+        - name: Ovulation 3
+          tank: o3
+          span: 12
+        - name: Ovulation 12
+          tank: o12
+          span: 12
+    - cols:
+        - name: Ovulation 2
+          tank: o2
+          span: 12
+        - name: Ovulation 13
+          tank: o13
+          span: 12
+    - cols:
+        - name: Ovulation 1
+          tank: o1
+          span: 12
+        - name: Ovulation 14
+          tank: o14
+          span: 12
+p1:
+  name: Production1
+  gutter: 15
+  rows:
+    - cols:
+      - name: P1 N1
+        tank: p1n1
+        span: 12
+      - name: P1 S1
+        tank: p1s1
+        span: 12
+    - cols:
+      - name: P1 N2
+        tank: p1n2
+        span: 12
+      - name: P1 S2
+        tank: p1s2
+        span: 12
+    - cols:
+      - name: P1 N3
+        tank: p1n3
+        span: 12
+      - name: P1 S3
+        tank: p1s3
+        span: 12
+    - cols:
+      - name: P1 N4
+        tank: p1n4
+        span: 12
+      - name: P1 S4
+        tank: p1s4
+        span: 12
+
+p2:
+  name: Production2
+  gutter: 15
+  rows:
+    - cols:
+      - name: P2 N1
+        tank: p2n1
+        span: 12
+      - name: P2 S1
+        tank: p2s1
+        span: 12
+    - cols:
+      - name: P2 N2
+        tank: p2n2
+        span: 12
+      - name: P2 S2
+        tank: p2s2
+        span: 12
+    - cols:
+      - name: P2 N3
+        tank: p2n3
+        span: 12
+      - name: P2 S3
+        tank: p2s3
+        span: 12
+    - cols:
+      - name: P2 N4
+        tank: p2n4
+        span: 12
+      - name: P2 S4
+        tank: p2s4
+        span: 12
+
+p3:
+  name: Production3
+  gutter: 15
+  rows:
+    - cols:
+      - name: P3 N1
+        tank: p3n1
+        span: 12
+      - name: P3 S1
+        tank: p3s1
+        span: 12
+    - cols:
+      - name: P3 N2
+        tank: p3n2
+        span: 12
+      - name: P3 S2
+        tank: p3s2
+        span: 12
+    - cols:
+      - name: P3 N3
+        tank: p3n3
+        span: 12
+      - name: P3 S3
+        tank: p3s3
+        span: 12
+    - cols:
+      - name: P3 N4
+        tank: p3n4
+        span: 12
+      - name: P3 S4
+        tank: p3s4
+        span: 12
+
+p4:
+  name: Production4
+  gutter: 15
+  rows:
+    - cols:
+      - name: P4 N1
+        tank: p4n1
+        span: 12
+      - name: P4 S1
+        tank: p4s1
+        span: 12
+    - cols:
+      - name: P4 N2
+        tank: p4n2
+        span: 12
+      - name: P4 S2
+        tank: p4s2
+        span: 12
+    - cols:
+      - name: P4 N3
+        tank: p4n3
+        span: 12
+      - name: P4 S3
+        tank: p4s3
+        span: 12
+    - cols:
+      - name: P4 N4
+        tank: p4n4
+        span: 12
+      - name: P4 S4
+        tank: p4s4
+        span: 12
+
+p5:
+  name: Production5
+  gutter: 15
+  rows:
+    - cols:
+      - name: P5 N1
+        tank: p5n1
+        span: 12
+      - name: P5 S1
+        tank: p5s1
+        span: 12
+    - cols:
+      - name: P5 N2
+        tank: p5n2
+        span: 12
+      - name: P5 S2
+        tank: p5s2
+        span: 12
+    - cols:
+      - name: P5 N3
+        tank: p5n3
+        span: 12
+      - name: P5 S3
+        tank: p5s3
+        span: 12
+    - cols:
+      - name: P5 N4
+        tank: p5n4
+        span: 12
+      - name: P5 S4
+        tank: p5s4
+        span: 12
